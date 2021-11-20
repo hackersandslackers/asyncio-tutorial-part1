@@ -30,7 +30,6 @@ async def async_gather_example(start_time: float):
         f"Executed {inspect.currentframe().f_code.co_name} in {time.perf_counter() - start_time:0.2f} seconds. \
         -----------------------------------------------------------------------------------------------------"
     )
-    LOGGER.info("")
 
 
 async def async_tasks_example(start_time: float):

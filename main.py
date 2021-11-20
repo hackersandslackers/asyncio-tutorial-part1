@@ -2,7 +2,7 @@
 import asyncio
 import time
 
-from asyncio_intro_tutorial import init_script
+from asyncio_intro_part1 import init_script
 
 if __name__ == "__main__":
     start_time = time.perf_counter()

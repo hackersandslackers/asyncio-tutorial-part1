@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "asyncio_intro_tutorial"
+version = "0.1.0"
+description = "Execute tasks asynchronously in Python using Asyncio."
+authors = ["Todd Birchard <todd@hackersandslackers.com>"]
+maintainers = ["Todd Birchard <todd@hackersandslackers.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/hackersandslackers/asyncio-tutorial/"
+repository = "https://github.com/hackersandslackers/asyncio-tutorial/"
+documentation = "https://hackersandslackers.com/asyncio-python-concurrency/"
+keywords = [
+  "Asyncio",
+  "Asynchronous",
+  "I/O",
+  "Concurrency",
+  "Python"
+]
+
+[tool.poetry.dependencies]
+python ="^3.9"
+asyncio = "*"
+loguru = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+mypy = "*"
+black = "^21.11b1"
+isort = "5.10.1"
+flake8 = "^4.0.1"
+
+[tool.poetry.scripts]
+run = "main:init_script"
+
+[tool.poetry.urls]
+issues = "https://github.com/hackersandslackers/asyncio-intro-tutorial/issues"
+
+[build-system]
+requires = ["poetry>=1.18"]
+build-backend = "poetry.masonry.api"
+
+[tool.isort]
+profile = "black"
+src_paths = ["asyncio_intro_tutorial", "main", "config"]

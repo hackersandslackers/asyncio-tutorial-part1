@@ -18,13 +18,13 @@ def formatter(log: dict) -> str:
             "<fg #cfe2f3>{level}</fg #cfe2f3>: "
             "<light-white>{message}</light-white> \n"
         )
-    if log["level"].name == "SUCCESS":
+    elif log["level"].name == "SUCCESS":
         return (
             "<fg #aad1f7>{time:HH:mm:ss A}</fg #aad1f7> | "
             "<fg #85de83>{level}</fg #85de83>: "
             "<light-white>{message}</light-white> \n"
         )
-    if log["level"].name == "WARNING":
+    elif log["level"].name == "WARNING":
         return (
             "<fg #aad1f7>{time:HH:mm:ss A}</fg #aad1f7> | "
             "<light-yellow>{level}</light-yellow>: "

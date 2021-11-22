@@ -36,12 +36,11 @@ def formatter(log: dict) -> str:
             "<light-red>{level}</light-red>: "
             "<light-white>{message}</light-white> \n"
         )
-    else:
-        return (
-            "<fg #aad1f7>{time:HH:mm:ss A}</fg #aad1f7> | "
-            "<fg #67c9c4>{level}</fg #67c9c4>: "
-            "<light-white>{message}</light-white> \n"
-        )
+    return (
+        "<fg #aad1f7>{time:HH:mm:ss A}</fg #aad1f7> | "
+        "<fg #67c9c4>{level}</fg #67c9c4>: "
+        "<light-white>{message}</light-white> \n"
+    )
 
 
 def create_logger() -> custom_logger:

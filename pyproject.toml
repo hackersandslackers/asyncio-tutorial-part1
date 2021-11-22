@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "asyncio_intro_tutorial"
+name = "asyncio_intro_part1"
 version = "0.1.0"
 description = "Execute tasks asynchronously in Python using Asyncio."
 authors = ["Todd Birchard <todd@hackersandslackers.com>"]
 maintainers = ["Todd Birchard <todd@hackersandslackers.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/hackersandslackers/asyncio-tutorial/"
-repository = "https://github.com/hackersandslackers/asyncio-tutorial/"
-documentation = "https://hackersandslackers.com/asyncio-python-concurrency/"
+homepage = "https://github.com/hackersandslackers/intro-to-asyncio-concurrency/"
+repository = "https://github.com/hackersandslackers/asyncio-tutorial-part1"
+documentation = "https://hackersandslackers.com/intro-to-asyncio-concurrency/"
 keywords = [
   "Asyncio",
   "Asynchronous",
@@ -33,7 +33,7 @@ flake8 = "^4.0.1"
 run = "main:init_script"
 
 [tool.poetry.urls]
-issues = "https://github.com/hackersandslackers/asyncio-intro-tutorial/issues"
+issues = "https://github.com/hackersandslackers/asyncio-tutorial-part1/issues"
 
 [build-system]
 requires = ["poetry>=1.18"]
@@ -41,4 +41,4 @@ build-backend = "poetry.masonry.api"
 
 [tool.isort]
 profile = "black"
-src_paths = ["asyncio_intro_tutorial", "main", "config"]
+src_paths = ["asyncio_intro_part1", "main", "config"]

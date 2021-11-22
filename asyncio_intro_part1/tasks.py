@@ -2,10 +2,12 @@
 import asyncio
 from asyncio import Task
 from random import randint
-from typing import Coroutine, List
+from typing import List
+
+from asyncio_intro_part1.coroutines import simple_coroutine
 
 
-async def create_tasks(simple_coroutine: Coroutine) -> List[Task]:
+async def create_tasks() -> List[Task]:
     """
     Create asyncio tasks to be executed.
 

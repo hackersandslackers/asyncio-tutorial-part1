@@ -33,7 +33,7 @@ async def async_gather_example():
 
 async def async_tasks_example():
     """Create and inspect tasks to wrap simple functions."""
-    tasks = await create_tasks(simple_coroutine)
+    tasks = await create_tasks()
     LOGGER.info(f"Created {len(tasks)} tasks about to be executed:")
     for task in tasks:
         LOGGER.info(task)

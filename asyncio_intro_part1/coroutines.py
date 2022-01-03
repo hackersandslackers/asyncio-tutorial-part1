@@ -4,12 +4,11 @@ import asyncio
 from logger import LOGGER
 
 
-async def simple_coroutine(number: int, delay=1):
+async def simple_coroutine(number: int):
     """
     Wait for a time delay & display number associated with coroutine.
 
     :param int number: Number to identify the current coroutine.
-    :param int delay: Time delay to simulate function delay.
     """
-    await asyncio.sleep(delay)
+    await asyncio.sleep(1)
     LOGGER.info(f"Coroutine {number} has finished executing.")

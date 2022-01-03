@@ -1,7 +1,8 @@
 """Helpers for logging the invocation & execution time of functions."""
-from logger import LOGGER
 from time import perf_counter as timer
 from time import sleep
+
+from logger import LOGGER
 
 
 async def function_start_log(function_name: str) -> timer:
@@ -27,4 +28,3 @@ async def function_complete_log(function_name: str, start_time: timer):
         f"Executed {function_name} in {timer() - start_time:0.2f} seconds. \n----------------------------------------------------------------"
     )
     sleep(2)
-

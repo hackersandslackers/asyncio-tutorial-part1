@@ -1,4 +1,4 @@
-"""Create a coroutine function to be executed as asyncio task."""
+"""Define a Coroutine function to be executed asynchronously."""
 import asyncio
 
 from logger import LOGGER

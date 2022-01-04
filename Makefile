@@ -74,6 +74,7 @@ clean:
 	find . -name 'poetry.lock' -delete
 	find . -name '*.log' -delete
 	find . -name '.DS_Store' -delete
+	find . -name 'requirements.txt' -delete
 	find . -wholename 'logs/*.json' -delete
 	find . -wholename '.pytest_cache' -delete
 	find . -wholename '**/.pytest_cache' -delete

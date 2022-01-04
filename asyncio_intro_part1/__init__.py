@@ -34,11 +34,7 @@ async def async_tasks_example():
     task_list = await create_tasks(5)
     done, pending = await asyncio.wait(task_list)
     if done:
-        LOGGER.success(
-            f"{len(done)} tasks completed: {[task.get_name() for task in done]}."
-        )
+        LOGGER.success(f"{len(done)} tasks completed: {[task.get_name() for task in done]}.")
     if pending:
-        LOGGER.warning(
-            f"{len(done)} tasks pending: {[task.get_name() for task in pending]}."
-        )
+        LOGGER.warning(f"{len(done)} tasks pending: {[task.get_name() for task in pending]}.")
     await function_complete_log(function_name, start_time)

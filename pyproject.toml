@@ -25,9 +25,10 @@ loguru = "*"
 [tool.poetry.dev-dependencies]
 pytest = "*"
 mypy = "*"
-black = "^21.11b1"
+black = "^21.12b0"
 isort = "5.10.1"
 flake8 = "^4.0.1"
+pylint = "*"
 
 [tool.poetry.scripts]
 run = "main:init_script"
@@ -42,3 +43,6 @@ build-backend = "poetry.masonry.api"
 [tool.isort]
 profile = "black"
 src_paths = ["asyncio_intro_part1", "main", "config"]
+
+[tool.black]
+line-length = 120

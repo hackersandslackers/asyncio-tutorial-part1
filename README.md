@@ -7,7 +7,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/hackersandslackers/asyncio-tutorial-part1.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/flask-blueprint-tutorial/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/hackersandslackers/asyncio-tutorial-part1.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/flask-blueprint-tutorial/network)
 
-![Asyncio](./.github/aiohttp@2x.jpg)
+![Asyncio](https://github.com/hackersandslackers/asyncio-tutorial-part1/blob/master/.github/asyncio_intro@2x.jpg)
 
 Source code demonstrating asynchronous Python for the Hackersandslackers post: [**Introduction to asynchronous Python with Asyncio**](https://hackersandslackers.com/intro-to-asyncio-concurrency/)
 

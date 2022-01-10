@@ -1,4 +1,4 @@
-# Python Asyncio Tutorial Part 1: Intro to Asynchronous Python 
+# Intro to Asynchronous Python with Asyncio
 
 ![Python](https://img.shields.io/badge/Python-v^3.9-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
 ![Asyncio](https://img.shields.io/badge/Asyncio-v^3.4.3-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)

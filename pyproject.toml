@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "asyncio_intro_part1"
+name = "Intro to Asynchronous Python with Asyncio"
 version = "0.1.0"
 description = "Execute tasks asynchronously in Python using Asyncio."
 authors = ["Todd Birchard <todd@hackersandslackers.com>"]

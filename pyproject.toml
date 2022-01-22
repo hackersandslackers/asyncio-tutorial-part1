@@ -24,6 +24,7 @@ loguru = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
+pytest-asyncio = "*"
 mypy = "*"
 black = "^21.12b0"
 isort = "5.10.1"
@@ -46,3 +47,6 @@ src_paths = ["asyncio_intro_part1"]
 
 [tool.black]
 line-length = 120
+
+[tool.pylint.'MESSAGES CONTROL']
+disable="C0103,C0301,W0703,W0621"

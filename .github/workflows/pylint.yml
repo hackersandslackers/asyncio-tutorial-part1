@@ -15,7 +15,8 @@ jobs:
         python-version: 3.9
     - name: Install dependencies
       run: |
-        make install
+        pip install -r requirements.txt
+        pip install pytest pytest-asyncio pylint
     - name: Analysing the code with pylint
       run: |
-        pylint `ls -R|grep .py$|xargs`
+        pylint asyncio_intro_part1
